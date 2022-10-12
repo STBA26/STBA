@@ -216,14 +216,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "god_of_lassagna"
-    },
-    {
-      "name": "GodLikeLassagna",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "god_like_lassagna"
     }
   ],
   "variable_elements": [],
@@ -272,6 +264,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.saintlouisbizzareadventure",
     "lockBaseModFiles": false
   },
