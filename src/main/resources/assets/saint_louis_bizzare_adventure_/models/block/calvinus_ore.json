@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "saint_louis_bizzare_adventure_:blocks/calvinorechad_ore",
+    "particle": "saint_louis_bizzare_adventure_:blocks/calvinorechad_ore"
+  }
+}

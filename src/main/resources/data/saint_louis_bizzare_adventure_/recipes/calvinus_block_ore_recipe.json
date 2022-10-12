@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "saint_louis_bizzare_adventure_:calvinus_block"
+    }
+  ],
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:calvinus_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "mod_elements": [
+    {
+      "name": "CalvinusIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_ingot"
+    },
+    {
+      "name": "CalvinusOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_ore"
+    },
+    {
+      "name": "CalvinusBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_block"
+    },
+    {
+      "name": "CalvinusOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_ore_block_recipe"
+    },
+    {
+      "name": "CalvinusBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_block_ore_recipe"
+    },
+    {
+      "name": "CalvinusOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_ore_smelting"
+    },
+    {
+      "name": "CalvinusPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_pickaxe"
+    },
+    {
+      "name": "CalvinusAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_axe"
+    },
+    {
+      "name": "CalvinusSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_sword"
+    },
+    {
+      "name": "CalvinusShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_shovel"
+    },
+    {
+      "name": "CalvinusHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_hoe"
+    },
+    {
+      "name": "CalvinusPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_pickaxe_recipe"
+    },
+    {
+      "name": "CalvinusAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_axe_recipe"
+    },
+    {
+      "name": "CalvinusSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_sword_recipe"
+    },
+    {
+      "name": "CalvinusShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_shovel_recipe"
+    },
+    {
+      "name": "CalvinusHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_hoe_recipe"
+    },
+    {
+      "name": "CalvinusArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CalvinusArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_armor_helmet_recipe"
+    },
+    {
+      "name": "CalvinusArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_armor_body_recipe"
+    },
+    {
+      "name": "CalvinusArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_armor_leggings_recipe"
+    },
+    {
+      "name": "CalvinusArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calvinus_armor_boots_recipe"
+    },
+    {
+      "name": "Cum",
+      "type": "fluid",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cum",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "PornHub",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porn_hub"
+    },
+    {
+      "name": "Frite",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frite"
+    },
+    {
+      "name": "GojoPotion",
+      "type": "potion",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gojo_potion"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.saint_louis_bizzare_adventure_.calvinus_shovel": "Calvinus Shovel",
+      "item.saint_louis_bizzare_adventure_.calvinus_armor_helmet": "Calvinus Helmet",
+      "item.saint_louis_bizzare_adventure_.calvinus_hoe": "Calvinus Hoe",
+      "item.saint_louis_bizzare_adventure_.calvinus_ingot": "Calvinus",
+      "block.saint_louis_bizzare_adventure_.calvinus_block": "Block of Calvinus",
+      "item.minecraft.lingering_potion.effect.gojo_potion": "Lingering Potion of Gojo Potion",
+      "item.saint_louis_bizzare_adventure_.calvinus_sword": "Calvinus Sword",
+      "item.saint_louis_bizzare_adventure_.calvinus_armor_leggings": "Calvinus Leggings",
+      "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
+      "item.saint_louis_bizzare_adventure_.porn_hub": "Porn Hub",
+      "item.saint_louis_bizzare_adventure_.calvinus_pickaxe": "Calvinus Pickaxe",
+      "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
+      "fluid.saint_louis_bizzare_adventure_.cum": "Cum",
+      "item.saint_louis_bizzare_adventure_.cum_bucket": "Cum Bucket",
+      "block.saint_louis_bizzare_adventure_.cum": "Cum",
+      "item.minecraft.tipped_arrow.effect.gojo_potion": "Arrow of Gojo Potion",
+      "item.saint_louis_bizzare_adventure_.calvinus_armor_chestplate": "Calvinus Chestplate",
+      "item.saint_louis_bizzare_adventure_.frite": "Frite",
+      "item.saint_louis_bizzare_adventure_.calvinus_armor_boots": "Calvinus Boots",
+      "item.minecraft.potion.effect.gojo_potion": "Potion of Gojo Potion",
+      "item.minecraft.splash_potion.effect.gojo_potion": "Splash Potion of Gojo Potion"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "saint_louis_bizzare_adventure_",
+    "modName": "Saint Louis Bizzare adventure 1",
+    "version": "1.0.0",
+    "author": "lecoo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.saintlouisbizzareadventure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

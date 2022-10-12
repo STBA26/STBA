@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "1": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "2": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "3": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "4": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "5": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "6": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "7": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    },
+    "8": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:calvinus_armor_chestplate",
+    "count": 1
+  }
+}

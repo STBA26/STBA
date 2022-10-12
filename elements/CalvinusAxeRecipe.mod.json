@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusAxe"
+      },
+      {
+        "value": "CUSTOM:CalvinusIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CalvinusAxe"
+    },
+    "name": "calvinus_axe_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "saint_louis_bizzare_adventure_:calvinus_ore"
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:calvinus_ingot"
+  }
+}
