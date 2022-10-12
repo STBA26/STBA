@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_sword"
+    },
+    "1": {
+      "item": "minecraft:diamond_block"
+    },
+    "2": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_sword"
+    },
+    "3": {
+      "item": "minecraft:diamond_block"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "minecraft:diamond_block"
+    },
+    "6": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_sword"
+    },
+    "7": {
+      "item": "minecraft:diamond_block"
+    },
+    "8": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_sword"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:god_of_lassagna",
+    "count": 1
+  }
+}

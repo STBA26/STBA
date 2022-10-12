@@ -208,6 +208,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gojo_potion"
+    },
+    {
+      "name": "GodOfLassagna",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_of_lassagna"
+    },
+    {
+      "name": "GodLikeLassagna",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_like_lassagna"
     }
   ],
   "variable_elements": [],
@@ -223,6 +239,7 @@
       "item.saint_louis_bizzare_adventure_.calvinus_sword": "Calvinus Sword",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_leggings": "Calvinus Leggings",
       "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
+      "item.saint_louis_bizzare_adventure_.god_of_lassagna": "God Of Lassagna",
       "item.saint_louis_bizzare_adventure_.porn_hub": "Porn Hub",
       "item.saint_louis_bizzare_adventure_.calvinus_pickaxe": "Calvinus Pickaxe",
       "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
