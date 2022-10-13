@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "saint_louis_bizzare_adventure_:giga_chad_block"
+    }
+  ],
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:giga_chad_ingot",
+    "count": 9
+  }
+}

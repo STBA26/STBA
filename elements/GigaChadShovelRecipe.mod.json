@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CalvinusBlock"
+      },
+      {
+        "value": "Items.NETHERITE_SHOVEL"
+      },
+      {
+        "value": "CUSTOM:CalvinusBlock"
+      },
+      {
+        "value": "Items.DIAMOND_SHOVEL"
+      },
+      {
+        "value": "CUSTOM:CalvinusShovel"
+      },
+      {
+        "value": "Items.GOLDEN_SHOVEL"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "Items.IRON_SHOVEL"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigaChadShovel"
+    },
+    "name": "giga_chad_shovel_recipe",
+    "namespace": "mod"
+  }
+}

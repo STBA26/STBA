@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusArmor.body"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "Items.NETHERITE_CHESTPLATE"
+      },
+      {
+        "value": "Items.GOLDEN_CHESTPLATE"
+      },
+      {
+        "value": "Items.DIAMOND_CHESTPLATE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigaChadArmor.body"
+    },
+    "name": "giga_chad_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

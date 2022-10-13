@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "saint_louis_bizzare_adventure_:items/gigachad_hoe"
+  }
+}

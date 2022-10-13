@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_block"
+    },
+    "1": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "2": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_block"
+    },
+    "3": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "4": {
+      "item": "saint_louis_bizzare_adventure_:calvinus_pickaxe"
+    },
+    "5": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "6": {
+      "item": "saint_louis_bizzare_adventure_:giga_chad_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "8": {
+      "item": "saint_louis_bizzare_adventure_:giga_chad_ingot"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:giga_chad_pickaxe",
+    "count": 1
+  }
+}

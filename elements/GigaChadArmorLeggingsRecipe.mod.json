@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "CUSTOM:CalvinusArmor.legs"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "Items.NETHERITE_LEGGINGS"
+      },
+      {
+        "value": "Items.GOLDEN_LEGGINGS"
+      },
+      {
+        "value": "Items.DIAMOND_LEGGINGS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigaChadArmor.legs"
+    },
+    "name": "giga_chad_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

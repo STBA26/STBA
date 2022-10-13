@@ -216,6 +216,252 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "god_of_lassagna"
+    },
+    {
+      "name": "WhenNonLanceFLammetouchedesblock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_non_lance_f_lammetouchedesblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NonLanceflamme",
+      "type": "rangeditem",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_lanceflamme"
+    },
+    {
+      "name": "NONLANCEFLAMMEBULLETHITBLOCK",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonlanceflammebullethitblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GigaChadIngot",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_ingot"
+    },
+    {
+      "name": "GigaChadOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_ore"
+    },
+    {
+      "name": "GigaChadBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_block"
+    },
+    {
+      "name": "GigaChadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_ore_block_recipe"
+    },
+    {
+      "name": "GigaChadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_block_ore_recipe"
+    },
+    {
+      "name": "GigaChadOreSmelting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_ore_smelting"
+    },
+    {
+      "name": "GigaChadPickaxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_pickaxe"
+    },
+    {
+      "name": "GigaChadAxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_axe"
+    },
+    {
+      "name": "GigaChadSword",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_sword"
+    },
+    {
+      "name": "GigaChadShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_shovel"
+    },
+    {
+      "name": "GigaChadHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_hoe"
+    },
+    {
+      "name": "GigaChadPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_pickaxe_recipe"
+    },
+    {
+      "name": "GigaChadAxeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_axe_recipe"
+    },
+    {
+      "name": "GigaChadSwordRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_sword_recipe"
+    },
+    {
+      "name": "GigaChadShovelRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_shovel_recipe"
+    },
+    {
+      "name": "GigaChadHoeRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_hoe_recipe"
+    },
+    {
+      "name": "GigaChadArmor",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GigaChadArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_armor_helmet_recipe"
+    },
+    {
+      "name": "GigaChadArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_armor_body_recipe"
+    },
+    {
+      "name": "GigaChadArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_armor_leggings_recipe"
+    },
+    {
+      "name": "GigaChadArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giga_chad_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -225,24 +471,37 @@
       "item.saint_louis_bizzare_adventure_.calvinus_shovel": "Calvinus Shovel",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_helmet": "Calvinus Helmet",
       "item.saint_louis_bizzare_adventure_.calvinus_hoe": "Calvinus Hoe",
-      "item.saint_louis_bizzare_adventure_.calvinus_ingot": "Calvinus",
+      "item.saint_louis_bizzare_adventure_.giga_chad_ingot": "GigaChad",
+      "item.saint_louis_bizzare_adventure_.giga_chad_pickaxe": "GigaChad Pickaxe",
       "block.saint_louis_bizzare_adventure_.calvinus_block": "Block of Calvinus",
       "item.minecraft.lingering_potion.effect.gojo_potion": "Lingering Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.calvinus_sword": "Calvinus Sword",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_leggings": "Calvinus Leggings",
-      "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
       "item.saint_louis_bizzare_adventure_.god_of_lassagna": "God Of Lassagna",
       "item.saint_louis_bizzare_adventure_.porn_hub": "Porn Hub",
       "item.saint_louis_bizzare_adventure_.calvinus_pickaxe": "Calvinus Pickaxe",
-      "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
       "fluid.saint_louis_bizzare_adventure_.cum": "Cum",
       "item.saint_louis_bizzare_adventure_.cum_bucket": "Cum Bucket",
+      "item.saint_louis_bizzare_adventure_.giga_chad_axe": "GigaChad Axe",
       "block.saint_louis_bizzare_adventure_.cum": "Cum",
-      "item.minecraft.tipped_arrow.effect.gojo_potion": "Arrow of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_chestplate": "Calvinus Chestplate",
+      "item.saint_louis_bizzare_adventure_.giga_chad_shovel": "GigaChad Shovel",
       "item.saint_louis_bizzare_adventure_.frite": "Frite",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_boots": "Calvinus Boots",
+      "item.saint_louis_bizzare_adventure_.giga_chad_armor_boots": "GigaChad Boots",
       "item.minecraft.potion.effect.gojo_potion": "Potion of Gojo Potion",
+      "item.saint_louis_bizzare_adventure_.giga_chad_armor_helmet": "GigaChad Helmet",
+      "item.saint_louis_bizzare_adventure_.giga_chad_hoe": "GigaChad Hoe",
+      "item.saint_louis_bizzare_adventure_.calvinus_ingot": "Calvinus",
+      "item.saint_louis_bizzare_adventure_.giga_chad_armor_leggings": "GigaChad Leggings",
+      "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
+      "item.saint_louis_bizzare_adventure_.giga_chad_armor_chestplate": "GigaChad Chestplate",
+      "item.saint_louis_bizzare_adventure_.non_lanceflamme": "Non Lanceflamme",
+      "item.saint_louis_bizzare_adventure_.giga_chad_sword": "GigaChad Sword",
+      "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
+      "block.saint_louis_bizzare_adventure_.giga_chad_ore": "GigaChad Ore",
+      "item.minecraft.tipped_arrow.effect.gojo_potion": "Arrow of Gojo Potion",
+      "block.saint_louis_bizzare_adventure_.giga_chad_block": "Block of GigaChad",
       "item.minecraft.splash_potion.effect.gojo_potion": "Splash Potion of Gojo Potion"
     }
   },

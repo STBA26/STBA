@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CalvinusBlock"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      },
+      {
+        "value": "CUSTOM:CalvinusBlock"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      },
+      {
+        "value": "CUSTOM:CalvinusAxe"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "CUSTOM:GigaChadIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigaChadAxe"
+    },
+    "name": "giga_chad_axe_recipe",
+    "namespace": "mod"
+  }
+}
