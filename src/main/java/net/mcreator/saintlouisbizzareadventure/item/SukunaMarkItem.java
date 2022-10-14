@@ -38,7 +38,7 @@ public class SukunaMarkItem extends SaintLouisBizzareAdventureModElements.ModEle
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("sukuna_mark");
 		}
 
@@ -50,6 +50,11 @@ public class SukunaMarkItem extends SaintLouisBizzareAdventureModElements.ModEle
 		@Override
 		public int getItemEnchantability() {
 			return 0;
+		}
+
+		@Override
+		public int getUseDuration(ItemStack itemstack) {
+			return 5;
 		}
 
 		@Override
