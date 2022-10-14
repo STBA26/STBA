@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "2": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "3": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "4": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "5": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "6": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "7": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "8": {
+      "item": "minecraft:golden_chestplate"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:gay_armor_armor_chestplate",
+    "count": 1
+  }
+}

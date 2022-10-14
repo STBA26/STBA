@@ -486,6 +486,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "GayArmorArmor",
+      "type": "armor",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GayArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "GayArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay_armor_armor_body_recipe"
+    },
+    {
+      "name": "GayArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "GayArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -506,6 +552,7 @@
       "item.saint_louis_bizzare_adventure_.calvinus_pickaxe": "Calvinus Pickaxe",
       "fluid.saint_louis_bizzare_adventure_.cum": "Cum",
       "item.saint_louis_bizzare_adventure_.cum_bucket": "Cum Bucket",
+      "item.saint_louis_bizzare_adventure_.gay_armor_armor_boots": "GayArmor Boots",
       "item.saint_louis_bizzare_adventure_.giga_chad_axe": "GigaChad Axe",
       "block.saint_louis_bizzare_adventure_.cum": "Cum",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_chestplate": "Calvinus Chestplate",
@@ -521,12 +568,15 @@
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_leggings": "GigaChad Leggings",
       "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_chestplate": "GigaChad Chestplate",
+      "item.saint_louis_bizzare_adventure_.gay_armor_armor_leggings": "GayArmor Leggings",
       "item.saint_louis_bizzare_adventure_.non_lanceflamme": "Non Lanceflamme",
       "item.saint_louis_bizzare_adventure_.giga_chad_sword": "GigaChad Sword",
       "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
       "block.saint_louis_bizzare_adventure_.giga_chad_ore": "GigaChad Ore",
       "item.minecraft.tipped_arrow.effect.gojo_potion": "Arrow of Gojo Potion",
+      "item.saint_louis_bizzare_adventure_.gay_armor_armor_chestplate": "GayArmor Chestplate",
       "block.saint_louis_bizzare_adventure_.giga_chad_block": "Block of GigaChad",
+      "item.saint_louis_bizzare_adventure_.gay_armor_armor_helmet": "GayArmor Helmet",
       "item.minecraft.splash_potion.effect.gojo_potion": "Splash Potion of Gojo Potion"
     }
   },
