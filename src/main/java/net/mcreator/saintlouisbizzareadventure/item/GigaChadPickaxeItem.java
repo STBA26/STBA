@@ -18,7 +18,7 @@ public class GigaChadPickaxeItem extends SaintLouisBizzareAdventureModElements.M
 	public static final Item block = null;
 
 	public GigaChadPickaxeItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 36);
+		super(instance, 13);
 	}
 
 	@Override

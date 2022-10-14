@@ -27,7 +27,7 @@ public class CalvinusBlockBlock extends SaintLouisBizzareAdventureModElements.Mo
 	public static final Block block = null;
 
 	public CalvinusBlockBlock(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 3);
+		super(instance, 6);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class GigaChadBlockBlock extends SaintLouisBizzareAdventureModElements.Mo
 	public static final Block block = null;
 
 	public GigaChadBlockBlock(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 32);
+		super(instance, 8);
 	}
 
 	@Override

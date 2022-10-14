@@ -49,7 +49,7 @@ public class CalvinusOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 	public static final Block block = null;
 
 	public CalvinusOreBlock(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 2);
+		super(instance, 5);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -78,7 +78,7 @@ public class CalvinusOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CalvinusIngotItem.block));
+			return Collections.singletonList(new ItemStack(CalvinusIngotItem.block, (int) (2)));
 		}
 	}
 
@@ -119,8 +119,8 @@ public class CalvinusOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(63)
-					.square().func_242731_b(11);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(15)
+					.square().func_242731_b(6);
 			event.getRegistry().register(feature.setRegistryName("calvinus_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("saint_louis_bizzare_adventure_:calvinus_ore"),
 					configuredFeature);

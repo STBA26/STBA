@@ -61,7 +61,7 @@ public class CumBlock extends SaintLouisBizzareAdventureModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public CumBlock(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 22);
+		super(instance, 2);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

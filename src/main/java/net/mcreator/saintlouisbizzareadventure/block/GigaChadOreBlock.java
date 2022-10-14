@@ -36,7 +36,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.saintlouisbizzareadventure.item.GigaChadIngotItem;
 import net.mcreator.saintlouisbizzareadventure.SaintLouisBizzareAdventureModElements;
 
 import java.util.Random;
@@ -49,7 +48,7 @@ public class GigaChadOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 	public static final Block block = null;
 
 	public GigaChadOreBlock(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 31);
+		super(instance, 7);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -78,7 +77,7 @@ public class GigaChadOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(GigaChadIngotItem.block));
+			return Collections.singletonList(new ItemStack(GigaChadOreBlock.block));
 		}
 	}
 
@@ -93,6 +92,8 @@ public class GigaChadOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.OBSIDIAN)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -119,8 +120,8 @@ public class GigaChadOreBlock extends SaintLouisBizzareAdventureModElements.ModE
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(33)
-					.square().func_242731_b(5);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(15)
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("giga_chad_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("saint_louis_bizzare_adventure_:giga_chad_ore"),
 					configuredFeature);

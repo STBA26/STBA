@@ -18,7 +18,7 @@ public class CalvinusPickaxeItem extends SaintLouisBizzareAdventureModElements.M
 	public static final Item block = null;
 
 	public CalvinusPickaxeItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 7);
+		super(instance, 9);
 	}
 
 	@Override

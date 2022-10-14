@@ -18,7 +18,7 @@ public class CalvinusHoeItem extends SaintLouisBizzareAdventureModElements.ModEl
 	public static final Item block = null;
 
 	public CalvinusHoeItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override
