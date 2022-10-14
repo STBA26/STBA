@@ -486,6 +486,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "ENzo",
+      "type": "painting",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_nzo"
     }
   ],
   "variable_elements": [],
