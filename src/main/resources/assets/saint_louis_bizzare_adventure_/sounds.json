@@ -1,0 +1,29 @@
+{
+  "bodyatmanormalsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman_bruit_normal",
+        "stream": false
+      }
+    ]
+  },
+  "bodyfatmanbruithit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-hit",
+        "stream": false
+      }
+    ]
+  },
+  "bodyfatmanpresentation": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-normal-1",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
     "mobName": "Body Fat Man Ma Geule",
     "mobLabel": "",
     "mobModelName": "Pig",
-    "mobModelTexture": "bodyfatmanmageule2.png",
+    "mobModelTexture": "eeee.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.9,
     "modelHeight": 0.9,
@@ -81,13 +81,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:bodyfatmanpresentation"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:bodyfatmanbruithit"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:bodyatmanormalsound"
     },
     "stepSound": {
       "value": ""

@@ -46,6 +46,12 @@ public class SaintLouisBizzareAdventureModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public SaintLouisBizzareAdventureModElements() {
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyatmanormalsound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyatmanormalsound")));
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyfatmanbruithit"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyfatmanbruithit")));
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyfatmanpresentation"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyfatmanpresentation")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("saint_louis_bizzare_adventure_").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
