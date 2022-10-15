@@ -15,7 +15,7 @@
       "value": "CUSTOM:NumberTWELVECOCK"
     },
     "brewingReturnStack": {
-      "value": "CUSTOM:SukunaMark"
+      "value": "POTION:CUSTOM:GojoPotion"
     },
     "name": "gojopotiocraft",
     "namespace": "mod"

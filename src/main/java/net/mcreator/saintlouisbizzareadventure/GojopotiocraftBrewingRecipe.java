@@ -5,9 +5,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.brewing.IBrewingRecipe;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 
+import net.minecraft.potion.PotionUtils;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 
-import net.mcreator.saintlouisbizzareadventure.item.SukunaMarkItem;
+import net.mcreator.saintlouisbizzareadventure.potion.GojoPotionPotion;
 import net.mcreator.saintlouisbizzareadventure.item.NumberTWELVECOCKItem;
 import net.mcreator.saintlouisbizzareadventure.block.GigaChadOreBlock;
 
@@ -36,7 +38,7 @@ public class GojopotiocraftBrewingRecipe extends SaintLouisBizzareAdventureModEl
 		@Override
 		public ItemStack getOutput(ItemStack input, ItemStack ingredient) {
 			if (isInput(input) && isIngredient(ingredient)) {
-				return new ItemStack(SukunaMarkItem.block);
+				return PotionUtils.addPotionToItemStack(new ItemStack(Items.POTION), GojoPotionPotion.potionType);
 			}
 			return ItemStack.EMPTY;
 		}
