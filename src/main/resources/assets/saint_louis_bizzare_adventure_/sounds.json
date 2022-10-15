@@ -34,5 +34,32 @@
         "stream": false
       }
     ]
+  },
+  "ahhhhhhhhhhhhhhh": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:ahhhhhhhhhhhh",
+        "stream": false
+      }
+    ]
+  },
+  "transformers": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:transformers",
+        "stream": false
+      }
+    ]
+  },
+  "lbj": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:le-bron-james",
+        "stream": false
+      }
+    ]
   }
 }

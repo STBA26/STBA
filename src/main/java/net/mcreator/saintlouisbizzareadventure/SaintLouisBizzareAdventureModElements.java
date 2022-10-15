@@ -54,6 +54,12 @@ public class SaintLouisBizzareAdventureModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "bodyfatmanpresentation")));
 		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "bfmmgbn3"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "bfmmgbn3")));
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "ahhhhhhhhhhhhhhh"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "ahhhhhhhhhhhhhhh")));
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "transformers"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "transformers")));
+		sounds.put(new ResourceLocation("saint_louis_bizzare_adventure_", "lbj"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("saint_louis_bizzare_adventure_", "lbj")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("saint_louis_bizzare_adventure_").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
