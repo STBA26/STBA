@@ -2,7 +2,6 @@
 package net.mcreator.saintlouisbizzareadventure.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -91,8 +90,7 @@ public class CumBlock extends SaintLouisBizzareAdventureModElements.ModElement {
 								new ResourceLocation("saint_louis_bizzare_adventure_:blocks/cum_2"))
 						.luminosity(0).density(1000).viscosity(1000).temperature(300)
 
-						.rarity(Rarity.COMMON)
-						.sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:grossefacial"))))
+						.rarity(Rarity.COMMON))
 				.explosionResistance(100f)
 
 				.tickRate(5).levelDecreasePerBlock(1).slopeFindDistance(4).bucket(() -> bucket).block(() -> block);

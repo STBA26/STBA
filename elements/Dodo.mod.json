@@ -81,13 +81,13 @@
       "value": "CUSTOM:IceTea"
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:zozozozoooooooo"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": ""
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:zozomusique"
     },
     "stepSound": {
       "value": ""

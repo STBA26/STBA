@@ -70,5 +70,23 @@
         "stream": false
       }
     ]
+  },
+  "zozozozoooooooo": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:zozozo-musique",
+        "stream": false
+      }
+    ]
+  },
+  "zozomusique": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:zo-zo-zoooooooooo",
+        "stream": false
+      }
+    ]
   }
 }
