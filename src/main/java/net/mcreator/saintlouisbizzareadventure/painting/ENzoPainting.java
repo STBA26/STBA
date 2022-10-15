@@ -12,6 +12,6 @@ public class ENzoPainting {
 
 	@SubscribeEvent
 	public static void registerPaintingType(RegistryEvent.Register<PaintingType> event) {
-		event.getRegistry().register(new PaintingType(64, 64).setRegistryName("e_nzo"));
+		event.getRegistry().register(new PaintingType(32, 16).setRegistryName("e_nzo"));
 	}
 }

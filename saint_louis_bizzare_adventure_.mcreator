@@ -502,6 +502,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "e_nzo"
+    },
+    {
+      "name": "BodyFatManMaGeule",
+      "type": "livingentity",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "body_fat_man_ma_geule"
     }
   ],
   "variable_elements": [],
@@ -532,6 +540,7 @@
       "item.minecraft.potion.effect.gojo_potion": "Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_helmet": "GigaChad Helmet",
       "item.saint_louis_bizzare_adventure_.sukuna_mark": "Sukuna Mark",
+      "item.saint_louis_bizzare_adventure_.body_fat_man_ma_geule_spawn_egg": "Body Fat Man Ma Geule Spawn Egg",
       "item.saint_louis_bizzare_adventure_.giga_chad_hoe": "GigaChad Hoe",
       "item.saint_louis_bizzare_adventure_.calvinus_ingot": "Calvinus",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_leggings": "GigaChad Leggings",
@@ -539,6 +548,7 @@
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_chestplate": "GigaChad Chestplate",
       "item.saint_louis_bizzare_adventure_.non_lanceflamme": "Non Lanceflamme",
       "item.saint_louis_bizzare_adventure_.giga_chad_sword": "GigaChad Sword",
+      "entity.saint_louis_bizzare_adventure_.body_fat_man_ma_geule": "Body Fat Man Ma Geule",
       "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
       "block.saint_louis_bizzare_adventure_.giga_chad_ore": "GigaChad Ore",
       "item.minecraft.tipped_arrow.effect.gojo_potion": "Arrow of Gojo Potion",
