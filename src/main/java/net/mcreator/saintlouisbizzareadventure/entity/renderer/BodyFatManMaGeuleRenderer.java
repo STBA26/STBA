@@ -25,7 +25,7 @@ public class BodyFatManMaGeuleRenderer {
 
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("saint_louis_bizzare_adventure_:textures/entities/bodyfatmanmageule.png");
+							return new ResourceLocation("saint_louis_bizzare_adventure_:textures/entities/bodyfatmanmageule2.png");
 						}
 					});
 		}
