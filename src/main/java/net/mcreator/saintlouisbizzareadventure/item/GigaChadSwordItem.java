@@ -18,7 +18,7 @@ public class GigaChadSwordItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item block = null;
 
 	public GigaChadSwordItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 38);
+		super(instance, 21);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class GigaChadSwordItem extends SaintLouisBizzareAdventureModElements.Mod
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {

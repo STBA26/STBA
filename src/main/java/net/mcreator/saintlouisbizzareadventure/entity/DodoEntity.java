@@ -77,8 +77,9 @@ public class DodoEntity extends SaintLouisBizzareAdventureModElements.ModElement
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 6);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 25);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -90,7 +91,7 @@ public class DodoEntity extends SaintLouisBizzareAdventureModElements.ModElement
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 10;
 			setNoAI(false);
 		}
 

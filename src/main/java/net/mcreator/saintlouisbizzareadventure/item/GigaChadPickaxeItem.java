@@ -18,7 +18,7 @@ public class GigaChadPickaxeItem extends SaintLouisBizzareAdventureModElements.M
 	public static final Item block = null;
 
 	public GigaChadPickaxeItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 36);
+		super(instance, 13);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class GigaChadPickaxeItem extends SaintLouisBizzareAdventureModElements.M
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 15f;
 			}
 
 			public float getAttackDamage() {
@@ -37,7 +37,7 @@ public class GigaChadPickaxeItem extends SaintLouisBizzareAdventureModElements.M
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 20;
 			}
 
 			public int getEnchantability() {
