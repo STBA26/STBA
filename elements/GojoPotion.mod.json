@@ -11,7 +11,7 @@
         "effect": {
           "value": "SPEED"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 5,
         "ambient": false,
         "showParticles": true
@@ -20,8 +20,8 @@
         "effect": {
           "value": "STRENGTH"
         },
-        "duration": 1400,
-        "amplifier": 3,
+        "duration": 1800,
+        "amplifier": 5,
         "ambient": false,
         "showParticles": true
       },
@@ -29,7 +29,7 @@
         "effect": {
           "value": "JUMP_BOOST"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 2,
         "ambient": false,
         "showParticles": true
@@ -38,7 +38,7 @@
         "effect": {
           "value": "REGENERATION"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 4,
         "ambient": false,
         "showParticles": true
@@ -47,7 +47,7 @@
         "effect": {
           "value": "ABSORPTION"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 2,
         "ambient": false,
         "showParticles": true
@@ -56,7 +56,7 @@
         "effect": {
           "value": "RESISTANCE"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 2,
         "ambient": false,
         "showParticles": true
@@ -65,7 +65,7 @@
         "effect": {
           "value": "HEALTH_BOOST"
         },
-        "duration": 1400,
+        "duration": 1800,
         "amplifier": 2,
         "ambient": false,
         "showParticles": true

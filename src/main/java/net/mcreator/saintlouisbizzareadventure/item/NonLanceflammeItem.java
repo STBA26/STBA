@@ -47,7 +47,7 @@ public class NonLanceflammeItem extends SaintLouisBizzareAdventureModElements.Mo
 			.size(0.5f, 0.5f)).build("projectile_non_lanceflamme").setRegistryName("projectile_non_lanceflamme");
 
 	public NonLanceflammeItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 20);
+		super(instance, 28);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NonLanceflammeRenderer.ModelRegisterHandler());
 	}
 

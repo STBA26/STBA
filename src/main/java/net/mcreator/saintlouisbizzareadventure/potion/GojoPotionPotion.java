@@ -22,10 +22,10 @@ public class GojoPotionPotion {
 
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.SPEED, 1400, 5, false, true), new EffectInstance(Effects.STRENGTH, 1400, 3, false, true),
-					new EffectInstance(Effects.JUMP_BOOST, 1400, 2, false, true), new EffectInstance(Effects.REGENERATION, 1400, 4, false, true),
-					new EffectInstance(Effects.ABSORPTION, 1400, 2, false, true), new EffectInstance(Effects.RESISTANCE, 1400, 2, false, true),
-					new EffectInstance(Effects.HEALTH_BOOST, 1400, 2, false, true));
+			super(new EffectInstance(Effects.SPEED, 1800, 5, false, true), new EffectInstance(Effects.STRENGTH, 1800, 5, false, true),
+					new EffectInstance(Effects.JUMP_BOOST, 1800, 2, false, true), new EffectInstance(Effects.REGENERATION, 1800, 4, false, true),
+					new EffectInstance(Effects.ABSORPTION, 1800, 2, false, true), new EffectInstance(Effects.RESISTANCE, 1800, 2, false, true),
+					new EffectInstance(Effects.HEALTH_BOOST, 1800, 2, false, true));
 			setRegistryName("gojo_potion");
 		}
 	}

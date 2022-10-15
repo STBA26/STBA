@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:GigaChadOre"
+      "value": "CUSTOM:GigaChadIngot"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -130,15 +130,12 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 3,
-    "minGenerateHeight": -50,
-    "maxGenerateHeight": 15
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 33
   }
 }

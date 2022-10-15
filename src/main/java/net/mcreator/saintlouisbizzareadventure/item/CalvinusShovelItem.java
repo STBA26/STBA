@@ -18,7 +18,7 @@ public class CalvinusShovelItem extends SaintLouisBizzareAdventureModElements.Mo
 	public static final Item block = null;
 
 	public CalvinusShovelItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 11);
+		super(instance, 10);
 	}
 
 	@Override

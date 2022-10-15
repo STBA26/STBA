@@ -24,7 +24,7 @@ public class GodOfLassagnaItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item block = null;
 
 	public GodOfLassagnaItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 19);
+		super(instance, 26);
 	}
 
 	@Override

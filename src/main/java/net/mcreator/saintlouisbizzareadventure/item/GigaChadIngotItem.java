@@ -17,7 +17,7 @@ public class GigaChadIngotItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item block = null;
 
 	public GigaChadIngotItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 3);
+		super(instance, 30);
 	}
 
 	@Override

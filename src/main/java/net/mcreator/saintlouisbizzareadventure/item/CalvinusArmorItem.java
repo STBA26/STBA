@@ -30,7 +30,7 @@ public class CalvinusArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item boots = null;
 
 	public CalvinusArmorItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 18);
+		super(instance, 17);
 	}
 
 	@Override

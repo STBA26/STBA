@@ -30,7 +30,7 @@ public class GigaChadArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item boots = null;
 
 	public GigaChadArmorItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 22);
+		super(instance, 46);
 	}
 
 	@Override

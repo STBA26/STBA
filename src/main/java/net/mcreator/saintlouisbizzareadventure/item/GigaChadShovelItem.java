@@ -18,7 +18,7 @@ public class GigaChadShovelItem extends SaintLouisBizzareAdventureModElements.Mo
 	public static final Item block = null;
 
 	public GigaChadShovelItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 15);
+		super(instance, 39);
 	}
 
 	@Override
