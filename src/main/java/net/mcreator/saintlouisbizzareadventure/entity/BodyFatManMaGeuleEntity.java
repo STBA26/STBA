@@ -133,7 +133,7 @@ public class BodyFatManMaGeuleEntity extends SaintLouisBizzareAdventureModElemen
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bodyatmanormalsound"));
+					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bfmmgbn3"));
 		}
 	}
 }

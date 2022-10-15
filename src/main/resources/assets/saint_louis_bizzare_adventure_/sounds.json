@@ -25,5 +25,14 @@
         "stream": false
       }
     ]
+  },
+  "bfmmgbn3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-normal-2",
+        "stream": false
+      }
+    ]
   }
 }
