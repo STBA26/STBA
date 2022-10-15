@@ -560,22 +560,6 @@
       "registry_name": "recette_tacos_3viandesamere"
     },
     {
-      "name": "NumberTWELVECOCKRightclicked",
-      "type": "procedure",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "number_twelvecock_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "NumberTWELVECOCK",
       "type": "item",
       "sortid": 63,
@@ -675,8 +659,8 @@
       "item.saint_louis_bizzare_adventure_.fuze_teat": "Fuze Tea",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_chestplate": "Calvinus Chestplate",
       "item.saint_louis_bizzare_adventure_.frite": "Frite",
-      "entity.saint_louis_bizzare_adventure_.toadax": "Toadax",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_boots": "Calvinus Boots",
+      "entity.saint_louis_bizzare_adventure_.toadax": "Toadax",
       "entity.saint_louis_bizzare_adventure_.malka": "Malka",
       "item.saint_louis_bizzare_adventure_.body_fat_man_ma_geule_spawn_egg": "Body Fat Man Ma Geule Spawn Egg",
       "item.saint_louis_bizzare_adventure_.giga_chad_hoe": "GigaChad Hoe",
