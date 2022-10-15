@@ -61,5 +61,14 @@
         "stream": false
       }
     ]
+  },
+  "grossefacial": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:le-bron-james",
+        "stream": false
+      }
+    ]
   }
 }

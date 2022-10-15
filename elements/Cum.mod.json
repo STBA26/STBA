@@ -4,7 +4,7 @@
   "definition": {
     "name": "Cum",
     "bucketName": "Cum Bucket",
-    "textureStill": "bucketofcum",
+    "textureStill": "cum_2",
     "textureFlowing": "cum_2",
     "tintType": "No tint",
     "canMultiply": false,
@@ -28,7 +28,7 @@
       "value": "MISC"
     },
     "emptySound": {
-      "value": ""
+      "value": "CUSTOM:grossefacial"
     },
     "rarity": "COMMON",
     "specialInfo": [],
