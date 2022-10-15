@@ -5,16 +5,16 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.block.material.Material;
 
 @SaintLouisBizzareAdventureModElements.ModElement.Tag
-public class CalEntity extends SaintLouisBizzareAdventureModElements.ModElement {
+public class BodyFatManMaGeuleEntity extends SaintLouisBizzareAdventureModElements.ModElement {
 
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("cal").setRegistryName("cal");
+			.size(0.9f, 0.9f)).build("body_fat_man_ma_geule").setRegistryName("body_fat_man_ma_geule");
 
-	public CalEntity(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 52);
+	public BodyFatManMaGeuleEntity(SaintLouisBizzareAdventureModElements instance) {
+		super(instance, 54);
 
-		FMLJavaModLoadingContext.get().getModEventBus().register(new CalRenderer.ModelRegisterHandler());
+		FMLJavaModLoadingContext.get().getModEventBus().register(new BodyFatManMaGeuleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 
 		MinecraftForge.EVENT_BUS.register(this);
@@ -24,8 +24,8 @@ public class CalEntity extends SaintLouisBizzareAdventureModElements.ModElement 
 	public void initElements() {
 		elements.entities.add(() -> entity);
 
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -65536, -14080, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("cal_spawn_egg"));
+		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("body_fat_man_ma_geule_spawn_egg"));
 	}
 
 	@SubscribeEvent
@@ -107,31 +107,6 @@ public class CalEntity extends SaintLouisBizzareAdventureModElements.ModElement 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-		}
-
-		@Override
-		public boolean isNonBoss() {
-			return false;
-		}
-
-		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.PINK, BossInfo.Overlay.PROGRESS);
-
-		@Override
-		public void addTrackingPlayer(ServerPlayerEntity player) {
-			super.addTrackingPlayer(player);
-			this.bossInfo.addPlayer(player);
-		}
-
-		@Override
-		public void removeTrackingPlayer(ServerPlayerEntity player) {
-			super.removeTrackingPlayer(player);
-			this.bossInfo.removePlayer(player);
-		}
-
-		@Override
-		public void updateAITasks() {
-			super.updateAITasks();
-			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
 
 	}
