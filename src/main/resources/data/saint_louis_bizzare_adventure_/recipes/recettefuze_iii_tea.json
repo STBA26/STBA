@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_louis_bizzare_adventure_:tacos_3viande"
+    },
+    "1": {
+      "item": "saint_louis_bizzare_adventure_:tacos_3viande"
+    },
+    "2": {
+      "item": "saint_louis_bizzare_adventure_:tacos_3viande"
+    },
+    "3": {
+      "item": "saint_louis_bizzare_adventure_:ice_tea"
+    },
+    "4": {
+      "item": "saint_louis_bizzare_adventure_:fuze_teat"
+    },
+    "5": {
+      "item": "saint_louis_bizzare_adventure_:ice_tea"
+    },
+    "6": {
+      "item": "saint_louis_bizzare_adventure_:cum_bucket"
+    },
+    "8": {
+      "item": "saint_louis_bizzare_adventure_:cum_bucket"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:number_twelvecock",
+    "count": 1
+  }
+}

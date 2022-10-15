@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "3": {
+      "item": "minecraft:cooked_beef"
+    },
+    "4": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "5": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "7": {
+      "item": "minecraft:cooked_rabbit"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:tacos_3viande",
+    "count": 1
+  }
+}

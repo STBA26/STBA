@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "1": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "2": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "3": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "4": {
+      "item": "saint_louis_bizzare_adventure_:ice_tea"
+    },
+    "5": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "6": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "7": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    },
+    "8": {
+      "item": "saint_louis_bizzare_adventure_:tacos"
+    }
+  },
+  "result": {
+    "item": "saint_louis_bizzare_adventure_:fuze_teat",
+    "count": 1
+  }
+}

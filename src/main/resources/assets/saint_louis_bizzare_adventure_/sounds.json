@@ -8,24 +8,6 @@
       }
     ]
   },
-  "bodyfatmanbruithit": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-hit",
-        "stream": false
-      }
-    ]
-  },
-  "bodyfatmanpresentation": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-normal-1",
-        "stream": false
-      }
-    ]
-  },
   "bfmmgbn3": {
     "category": "neutral",
     "sounds": [
@@ -67,6 +49,24 @@
     "sounds": [
       {
         "name": "saint_louis_bizzare_adventure_:le-bron-james",
+        "stream": false
+      }
+    ]
+  },
+  "bodyfatmanbruithit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-hit",
+        "stream": false
+      }
+    ]
+  },
+  "bodyfatmanpresentation": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:bodyfatman-bruit-normal-1",
         "stream": false
       }
     ]

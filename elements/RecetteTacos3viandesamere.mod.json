@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COOKED_CHICKEN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "CUSTOM:Tacos"
+      },
+      {
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COOKED_RABBIT"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tacos3viande"
+    },
+    "name": "recette_tacos_3viandesamere",
+    "namespace": "mod"
+  }
+}
