@@ -622,6 +622,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iabbmcu"
+    },
+    {
+      "name": "Argent",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "argent"
+    },
+    {
+      "name": "EthanielPlatik",
+      "type": "livingentity",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethaniel_platik"
     }
   ],
   "variable_elements": [],
@@ -705,6 +721,30 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "gigachad",
+      "files": [
+        "gigachad"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ahhep",
+      "files": [
+        "16_oct._a_15.33"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bonjourep",
+      "files": [
+        "16_oct._a_15.32"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -729,13 +769,16 @@
       "entity.saint_louis_bizzare_adventure_.malka": "Malka",
       "item.saint_louis_bizzare_adventure_.body_fat_man_ma_geule_spawn_egg": "Body Fat Man Ma Geule Spawn Egg",
       "item.saint_louis_bizzare_adventure_.giga_chad_hoe": "GigaChad Hoe",
+      "item.saint_louis_bizzare_adventure_.argent": "Argent",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_chestplate": "GigaChad Chestplate",
       "item.saint_louis_bizzare_adventure_.non_lanceflamme": "Non Lanceflamme",
       "subtitles.zozozozoooooooo": "",
       "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
       "entity.saint_louis_bizzare_adventure_.limule_car_fun": "Limule Car Fun",
+      "item.saint_louis_bizzare_adventure_.ethaniel_platik_spawn_egg": "Ethaniel Platik Spawn Egg",
       "subtitles.transformers": "",
       "item.saint_louis_bizzare_adventure_.malka_spawn_egg": "Malka Spawn Egg",
+      "subtitles.gigachad": "",
       "item.minecraft.potion.effect.imagine_a_big_black_man_chasing_you": "Potion of Imagine A Big Black Man Chasing You",
       "item.saint_louis_bizzare_adventure_.calvinus_shovel": "Calvinus Shovel",
       "item.saint_louis_bizzare_adventure_.calvinus_hoe": "Calvinus Hoe",
@@ -757,6 +800,7 @@
       "item.minecraft.potion.effect.gojo_potion": "Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_helmet": "GigaChad Helmet",
       "subtitles.bodyfatmanbruithit": "",
+      "entity.saint_louis_bizzare_adventure_.ethaniel_platik": "Ethaniel Platik",
       "item.saint_louis_bizzare_adventure_.sukuna_mark": "Sukuna Mark",
       "item.minecraft.lingering_potion.effect.imagine_a_big_black_man_chasing_you": "Lingering Potion of Imagine A Big Black Man Chasing You",
       "subtitles.zozomusique": "",
@@ -765,7 +809,9 @@
       "item.saint_louis_bizzare_adventure_.limule_car_fun_spawn_egg": "Limule Car Fun Spawn Egg",
       "item.saint_louis_bizzare_adventure_.toadax_spawn_egg": "Toadax Spawn Egg",
       "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
+      "subtitles.ahhep": "",
       "subtitles.bfmmgbn3": "",
+      "subtitles.bonjourep": "",
       "item.saint_louis_bizzare_adventure_.giga_chad_sword": "GigaChad Sword",
       "entity.saint_louis_bizzare_adventure_.body_fat_man_ma_geule": "Body Fat Man Ma Geule",
       "block.saint_louis_bizzare_adventure_.giga_chad_ore": "GigaChad Ore",

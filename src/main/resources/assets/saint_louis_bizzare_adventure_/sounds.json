@@ -88,5 +88,32 @@
         "stream": false
       }
     ]
+  },
+  "gigachad": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:gigachad",
+        "stream": false
+      }
+    ]
+  },
+  "ahhep": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:16_oct._a_15.33",
+        "stream": false
+      }
+    ]
+  },
+  "bonjourep": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "saint_louis_bizzare_adventure_:16_oct._a_15.32",
+        "stream": false
+      }
+    ]
   }
 }

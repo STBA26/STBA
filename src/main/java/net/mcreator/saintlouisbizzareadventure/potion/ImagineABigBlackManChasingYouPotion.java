@@ -22,7 +22,7 @@ public class ImagineABigBlackManChasingYouPotion {
 
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.SPEED, 3600, 10, false, true));
+			super(new EffectInstance(Effects.SPEED, 3600, 25, false, true));
 			setRegistryName("imagine_a_big_black_man_chasing_you");
 		}
 	}

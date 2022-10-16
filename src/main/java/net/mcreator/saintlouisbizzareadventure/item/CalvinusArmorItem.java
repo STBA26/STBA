@@ -30,7 +30,7 @@ public class CalvinusArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item boots = null;
 
 	public CalvinusArmorItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override
@@ -43,12 +43,12 @@ public class CalvinusArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{5, 10, 10, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 20;
 			}
 
 			@Override
@@ -69,12 +69,12 @@ public class CalvinusArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

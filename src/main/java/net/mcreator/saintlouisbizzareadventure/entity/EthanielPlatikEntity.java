@@ -35,18 +35,18 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.saintlouisbizzareadventure.entity.renderer.BodyFatManMaGeuleRenderer;
+import net.mcreator.saintlouisbizzareadventure.entity.renderer.EthanielPlatikRenderer;
 import net.mcreator.saintlouisbizzareadventure.SaintLouisBizzareAdventureModElements;
 
 @SaintLouisBizzareAdventureModElements.ModElement.Tag
-public class BodyFatManMaGeuleEntity extends SaintLouisBizzareAdventureModElements.ModElement {
+public class EthanielPlatikEntity extends SaintLouisBizzareAdventureModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.9f, 0.9f)).build("body_fat_man_ma_geule").setRegistryName("body_fat_man_ma_geule");
+			.size(0.6f, 1.8f)).build("ethaniel_platik").setRegistryName("ethaniel_platik");
 
-	public BodyFatManMaGeuleEntity(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 54);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new BodyFatManMaGeuleRenderer.ModelRegisterHandler());
+	public EthanielPlatikEntity(SaintLouisBizzareAdventureModElements instance) {
+		super(instance, 71);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new EthanielPlatikRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -54,13 +54,13 @@ public class BodyFatManMaGeuleEntity extends SaintLouisBizzareAdventureModElemen
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC))
-				.setRegistryName("body_fat_man_ma_geule_spawn_egg"));
+		elements.items.add(
+				() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("ethaniel_platik_spawn_egg"));
 	}
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 10, 4, 4));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
 	}
 
 	@Override
@@ -121,19 +121,18 @@ public class BodyFatManMaGeuleEntity extends SaintLouisBizzareAdventureModElemen
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bodyfatmanpresentation"));
+					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bonjourep"));
 		}
 
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bodyfatmanbruithit"));
+					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:ahhep"));
 		}
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-					.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:bfmmgbn3"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 		}
 	}
 }

@@ -30,7 +30,7 @@ public class GigaChadArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 	public static final Item boots = null;
 
 	public GigaChadArmorItem(SaintLouisBizzareAdventureModElements instance) {
-		super(instance, 46);
+		super(instance, 22);
 	}
 
 	@Override
@@ -43,7 +43,7 @@ public class GigaChadArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 12, 10, 4}[slot.getIndex()];
+				return new int[]{4, 20, 20, 20}[slot.getIndex()];
 			}
 
 			@Override
@@ -53,7 +53,8 @@ public class GigaChadArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+						.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:gigachad"));
 			}
 
 			@Override
@@ -74,33 +75,41 @@ public class GigaChadArmorItem extends SaintLouisBizzareAdventureModElements.Mod
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.5f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("giga_chad_armor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("giga_chad_armor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("giga_chad_armor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("giga_chad_armor_boots"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
+								+ ".png";
+					}
+				}.setRegistryName("giga_chad_armor_helmet"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
+								+ ".png";
+					}
+				}.setRegistryName("giga_chad_armor_chestplate"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
+								+ ".png";
+					}
+				}.setRegistryName("giga_chad_armor_leggings"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "saint_louis_bizzare_adventure_:textures/models/armor/gigachad_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
+								+ ".png";
+					}
+				}.setRegistryName("giga_chad_armor_boots"));
 	}
 
 }

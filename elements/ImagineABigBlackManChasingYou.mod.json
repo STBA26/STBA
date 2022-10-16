@@ -12,7 +12,7 @@
           "value": "SPEED"
         },
         "duration": 3600,
-        "amplifier": 10,
+        "amplifier": 25,
         "ambient": false,
         "showParticles": true
       }
