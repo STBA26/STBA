@@ -2,9 +2,9 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Ethaniel Platik",
+    "mobName": "EP",
     "mobLabel": "",
-    "mobModelName": "Modelcustom_model",
+    "mobModelName": "Biped",
     "mobModelTexture": "ep.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

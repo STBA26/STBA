@@ -35,18 +35,18 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.saintlouisbizzareadventure.entity.renderer.EthanielPlatikRenderer;
+import net.mcreator.saintlouisbizzareadventure.entity.renderer.EPRenderer;
 import net.mcreator.saintlouisbizzareadventure.SaintLouisBizzareAdventureModElements;
 
 @SaintLouisBizzareAdventureModElements.ModElement.Tag
-public class EthanielPlatikEntity extends SaintLouisBizzareAdventureModElements.ModElement {
+public class EPEntity extends SaintLouisBizzareAdventureModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("ethaniel_platik").setRegistryName("ethaniel_platik");
+			.size(0.6f, 1.8f)).build("ep").setRegistryName("ep");
 
-	public EthanielPlatikEntity(SaintLouisBizzareAdventureModElements instance) {
+	public EPEntity(SaintLouisBizzareAdventureModElements instance) {
 		super(instance, 71);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new EthanielPlatikRenderer.ModelRegisterHandler());
+		FMLJavaModLoadingContext.get().getModEventBus().register(new EPRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -54,8 +54,7 @@ public class EthanielPlatikEntity extends SaintLouisBizzareAdventureModElements.
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("ethaniel_platik_spawn_egg"));
+		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("ep_spawn_egg"));
 	}
 
 	@SubscribeEvent

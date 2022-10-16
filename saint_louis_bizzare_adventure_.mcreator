@@ -632,12 +632,12 @@
       "registry_name": "argent"
     },
     {
-      "name": "EthanielPlatik",
+      "name": "EP",
       "type": "livingentity",
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ethaniel_platik"
+      "registry_name": "ep"
     }
   ],
   "variable_elements": [],
@@ -775,13 +775,13 @@
       "subtitles.zozozozoooooooo": "",
       "item.saint_louis_bizzare_adventure_.calvinus_axe": "Calvinus Axe",
       "entity.saint_louis_bizzare_adventure_.limule_car_fun": "Limule Car Fun",
-      "item.saint_louis_bizzare_adventure_.ethaniel_platik_spawn_egg": "Ethaniel Platik Spawn Egg",
       "subtitles.transformers": "",
       "item.saint_louis_bizzare_adventure_.malka_spawn_egg": "Malka Spawn Egg",
       "subtitles.gigachad": "",
       "item.minecraft.potion.effect.imagine_a_big_black_man_chasing_you": "Potion of Imagine A Big Black Man Chasing You",
       "item.saint_louis_bizzare_adventure_.calvinus_shovel": "Calvinus Shovel",
       "item.saint_louis_bizzare_adventure_.calvinus_hoe": "Calvinus Hoe",
+      "entity.saint_louis_bizzare_adventure_.ep": "EP",
       "item.minecraft.lingering_potion.effect.gojo_potion": "Lingering Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.ice_tea": "Ice Tea",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_leggings": "Calvinus Leggings",
@@ -800,7 +800,6 @@
       "item.minecraft.potion.effect.gojo_potion": "Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_helmet": "GigaChad Helmet",
       "subtitles.bodyfatmanbruithit": "",
-      "entity.saint_louis_bizzare_adventure_.ethaniel_platik": "Ethaniel Platik",
       "item.saint_louis_bizzare_adventure_.sukuna_mark": "Sukuna Mark",
       "item.minecraft.lingering_potion.effect.imagine_a_big_black_man_chasing_you": "Lingering Potion of Imagine A Big Black Man Chasing You",
       "subtitles.zozomusique": "",
@@ -810,6 +809,7 @@
       "item.saint_louis_bizzare_adventure_.toadax_spawn_egg": "Toadax Spawn Egg",
       "block.saint_louis_bizzare_adventure_.calvinus_ore": "Calvinus Ore",
       "subtitles.ahhep": "",
+      "item.saint_louis_bizzare_adventure_.ep_spawn_egg": "EP Spawn Egg",
       "subtitles.bfmmgbn3": "",
       "subtitles.bonjourep": "",
       "item.saint_louis_bizzare_adventure_.giga_chad_sword": "GigaChad Sword",
