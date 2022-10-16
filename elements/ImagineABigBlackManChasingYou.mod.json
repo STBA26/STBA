@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Imagine A Big Black Man Chasing You",
+    "splashName": "Splash Potion of Imagine A Big Black Man Chasing You",
+    "lingeringName": "Lingering Potion of Imagine A Big Black Man Chasing You",
+    "arrowName": "Arrow of Imagine A Big Black Man Chasing You",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

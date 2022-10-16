@@ -131,7 +131,7 @@ public class MalkaEntity extends SaintLouisBizzareAdventureModElements.ModElemen
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("saint_louis_bizzare_adventure_:lbj"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 		}
 	}
 }

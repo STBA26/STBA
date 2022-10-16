@@ -606,6 +606,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hamburger_recipe"
+    },
+    {
+      "name": "ImagineABigBlackManChasingYou",
+      "type": "potion",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imagine_a_big_black_man_chasing_you"
+    },
+    {
+      "name": "IABBMCU",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iabbmcu"
     }
   ],
   "variable_elements": [],
@@ -705,6 +721,7 @@
       "item.saint_louis_bizzare_adventure_.calvinus_pickaxe": "Calvinus Pickaxe",
       "item.saint_louis_bizzare_adventure_.cum_bucket": "Cum Bucket",
       "item.saint_louis_bizzare_adventure_.fuze_teat": "Fuze Tea",
+      "item.minecraft.splash_potion.effect.imagine_a_big_black_man_chasing_you": "Splash Potion of Imagine A Big Black Man Chasing You",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_chestplate": "Calvinus Chestplate",
       "item.saint_louis_bizzare_adventure_.frite": "Frite",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_boots": "Calvinus Boots",
@@ -719,11 +736,13 @@
       "entity.saint_louis_bizzare_adventure_.limule_car_fun": "Limule Car Fun",
       "subtitles.transformers": "",
       "item.saint_louis_bizzare_adventure_.malka_spawn_egg": "Malka Spawn Egg",
+      "item.minecraft.potion.effect.imagine_a_big_black_man_chasing_you": "Potion of Imagine A Big Black Man Chasing You",
       "item.saint_louis_bizzare_adventure_.calvinus_shovel": "Calvinus Shovel",
       "item.saint_louis_bizzare_adventure_.calvinus_hoe": "Calvinus Hoe",
       "item.minecraft.lingering_potion.effect.gojo_potion": "Lingering Potion of Gojo Potion",
       "item.saint_louis_bizzare_adventure_.ice_tea": "Ice Tea",
       "item.saint_louis_bizzare_adventure_.calvinus_armor_leggings": "Calvinus Leggings",
+      "item.minecraft.tipped_arrow.effect.imagine_a_big_black_man_chasing_you": "Arrow of Imagine A Big Black Man Chasing You",
       "item.saint_louis_bizzare_adventure_.number_twelvecock": "FuzeIIITea",
       "item.saint_louis_bizzare_adventure_.porn_hub": "Porn Hub",
       "subtitles.ahhhhhhhhhhhhhhh": "",
@@ -739,6 +758,7 @@
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_helmet": "GigaChad Helmet",
       "subtitles.bodyfatmanbruithit": "",
       "item.saint_louis_bizzare_adventure_.sukuna_mark": "Sukuna Mark",
+      "item.minecraft.lingering_potion.effect.imagine_a_big_black_man_chasing_you": "Lingering Potion of Imagine A Big Black Man Chasing You",
       "subtitles.zozomusique": "",
       "item.saint_louis_bizzare_adventure_.calvinus_ingot": "Calvinus",
       "item.saint_louis_bizzare_adventure_.giga_chad_armor_leggings": "GigaChad Leggings",
